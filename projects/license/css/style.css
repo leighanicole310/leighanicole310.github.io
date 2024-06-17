@@ -25,24 +25,37 @@
 
 #id-and-expiration div {
     display: inline-block;
-    color: red;
     font-weight: bold;
+}
+
+div.id-and-expiration {
+    color: red;
 }
 
 div.small-pic-container img {
     display: inline-block;
-
+    width: 80px;
 }
 
-#data-fields div {
+div.small-pic-container {
+    display: inline-block;
+    width: 25%;
+}
+
+#small-pic {
+    display: inline-block;
+    width: 25px;
+}
+
+#data-fields {
     display: inline-block;
 }
 
-#data-left div {
+#data-left {
     display: inline-block;
 }
 
-#data-right div {
+div#data-right {
     display: inline-block;
 }
 
@@ -50,11 +63,11 @@ div.small-pic-container img {
     text-align: center;
 }
 
-div.right-side img {
+#right-side img {
     width: 100%;
 }
 
-#donor div {
+#donor {
     display: inline-block;
 }
 
@@ -73,6 +86,6 @@ h4 {
     background-color: blue;
 }
 
-#address div {
-    margin-top: 15px;
+#address {
+    margin-top: 25px;
 }
