@@ -1,1 +1,56 @@
+* {
+    box-sizing: border-box;
+}
 
+body {
+    margin: 0px;
+    font-family: fantasy;
+}
+
+.jeremiahs-italian {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: aliceblue;
+    padding: 25px;
+}
+
+.gelati {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: aliceblue;
+    padding: 25px;
+}
+
+.lightblue-container {
+    background-color: rgb(9, 67, 255);
+}
+
+.italian-ice {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: darkblue;
+    padding: 25px;
+}
+
+.lightgreen-container {
+    background-color: rgb(177, 246, 65);
+}
+
+.soft-ice-cream {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: aliceblue;
+    padding: 25px;
+}
+
+.pink-container {
+    background-color: rgb(248, 56, 117);
+}
