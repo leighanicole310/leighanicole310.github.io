@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#two-columns {
+    display: flex;
+}
+
+#sidebar-content {
+    background-color: black;
+    width: 250px;
+    padding: 24px;
+    border-right: 2px solid white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#sidebar-content h2 {
+    border-bottom: 2px solid white;
+    padding-bottom: 8px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#sidebar-content ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#sidebar-content ul a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#sidebar-content ul li {
+    padding: 4px 0px;
+    text-align: center;
+}
+
+#main-content {
+    flex: 1;
+    padding: 48px;
+    background-color: white;
+}
