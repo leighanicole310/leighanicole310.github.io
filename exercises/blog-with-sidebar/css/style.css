@@ -63,6 +63,7 @@ body {
 
 #main-content img {
     border: 3px solid white;
+    margin: 60px;
 }
 
 #main-content h1, h3, h4 {
