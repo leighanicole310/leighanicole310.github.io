@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background: linear-gradient(45deg, pink, purple, pink);
 }
 
 #grid-layout {
@@ -20,7 +21,7 @@ body {
 }
 
 #sidebar-content h2 {
-    background-color: darkslategray;
+    background-color: rgb(136, 81, 144);
     color: white;
     padding: 12px;
     font-size: 18px;
@@ -28,20 +29,20 @@ body {
 }
 
 #sidebar-content ul {
-    background-color: #efefef;
-    border: 1px solid darkslategray;
+    background-color: rgb(136, 81, 144);
+    border: 3px solid white;
     margin: 0px 0px 36px;
     padding: 0px 12px;
     list-style-type: none;
 }
 
 #sidebar-content a {
-    color: darkslategray;
+    color: white;
     text-decoration: none;
 }
 
 #sidebar-content li {
-    border-bottom: 1px solid darkslategray;
+    border-bottom: 1px solid rgb(23, 2, 29);
     padding: 8px 0px;
 }
 
@@ -52,5 +53,15 @@ body {
 #main-content {
     grid-area: content;
     padding: 0px 36px;
+    background-color: rgb(136, 81, 144);
+    border: 3px solid white;
+    color: rgb(50, 9, 63);
 }
 
+#main-content img {
+    border: 3px solid white;
+}
+
+#main-content h1, h3, h4 {
+    color: white;
+}
