@@ -21,8 +21,8 @@ body {
 }
 
 #sidebar-content h2 {
-    background-color: rgb(136, 81, 144);
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(50, 9, 63);
     padding: 12px;
     font-size: 18px;
     margin: 0px;
@@ -30,7 +30,7 @@ body {
 
 #sidebar-content ul {
     background-color: rgb(136, 81, 144);
-    border: 3px solid white;
+    border: 1px solid white;
     margin: 0px 0px 36px;
     padding: 0px 12px;
     list-style-type: none;
