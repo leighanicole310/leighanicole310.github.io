@@ -10,7 +10,7 @@ body {
 #grid-layout {
     display: grid;
     grid-template-columns: 250px 1fr;
-    grid-template-areas: 
+    grid-template-areas:
         "header header"
         "sidebar main";
 }
@@ -74,12 +74,35 @@ body {
     margin-bottom: 24px;
 }
 
-.metube-item .thumbnail-placeholders {
+.metube-item .thumbnail-placeholder {
+    aspect-ratio: 16/9;
     background: radial-gradient(
         at top left, 
         crimson, 
         orange
         );
-        aspect-ratio: 16/9;
         border-radius: 8px;
+}
+
+.metube-item h4 {
+    margin: 8px;
+}
+
+.metube-item h4 a {
+    text-decoration: none;
+    color: #111111;
+    display: block;
+}
+
+.metube-item h4 a:hover {
+    text-decoration: underline;
+}
+
+.metube-item .video-details {
+    margin: 8px;
+    font-size: 14px;
+}
+
+.metube-items .video-channel {
+    margin-bottom: 4px;
 }
