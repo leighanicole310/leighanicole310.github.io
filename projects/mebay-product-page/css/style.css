@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: #111111;
+}
+
+#layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "header header header"
+        "column-1 column-2 column-3";
+}
+
+/* Header */
+
+
+/* Buttons */
+
+
+.buy-it-now {
+    border-radius: 10px;
+    background-color: rgb(43, 43, 242);
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.add-to-cart {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: rgb(43, 43, 242);
+    display: inline-block;
+    padding: 0px 15px;
+
+}
+
+div a {
+    color: white;
+}
+#column-1 {
+    grid-area: column-1;
+    background-color: white;
+    border: 3px solid white;
+    padding: 0px 25px;
+}
+
+
+#column-2 {
+    background-color: white;
+    grid-area: column-2;
+    color: #111111;
+    padding: 24px;
+}
+
+#column-3 {
+    background-color: white;
+    grid-area: column-3;
+    padding: 24px;
+    display: flex;
+    flex-wrap: wrap;
+}
