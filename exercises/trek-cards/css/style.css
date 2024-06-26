@@ -20,17 +20,19 @@ body {
     max-width: 350px;
     box-shadow: 2px 2px 12px rgb(35, 35, 35);
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    background-color: ;
+    background-color: #eeffee;
+    margin: 15px;
 }
 
 .card-style-1 img {
     width: 100%;
 }
 
-h2 {
+.card-style-1 h2 {
     text-align: center;
-    
+    margin: 20px;
 }
 
 .card-style-1 p {
