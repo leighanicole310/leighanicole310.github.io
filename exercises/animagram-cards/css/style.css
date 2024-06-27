@@ -15,47 +15,46 @@ body {
 }
 
 .card-style-2 {
-    background-color: white;
-    border: 3px solid white;
+    width: 350px;
+    height: 535px;
+    margin: 20px;
     border-radius: 35px;
-    max-width: 350px;
-    max-height: 534px;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 20px;
+    background-color: white;
     text-align: center;
+    flex-direction: column;
 }
 
-.card-style-2 img {
-    width: 100%;
+.animagram-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    font-size: 30px;
+}
+
+.profile-pic-container img {
+    width: 210px;
     border-radius: 50%;
-    flex: 1;
-}
-
-div.profile-pic-container {
-    border: 3px solid black;
-}
-
-span.logo {
-    margin: 20px;
-}
-
-span.brand-name {
-    font-size: 28px;
-    padding-left: 78px;
 }
 
 .card-style-2 h2 {
     text-align: center;
-}
-
-p {
-    text-align: center;
-}
-
-.animagram-footer  {
     display: flex;
     justify-content: center;
-    justify-content: space-between;
-    font-size: x-large;
 }
+
+
+
+.card-style-2 p {
+    margin: 26px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.animagram-footer {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
