@@ -19,7 +19,7 @@ body {
     border: 15px solid #ffd602;
     border-radius: 15px;
     max-width: 350px;
-    max-height: fit-content;
+    max-height: 570px;
     display: flex;
     flex-direction: column;
     margin: 20px;
