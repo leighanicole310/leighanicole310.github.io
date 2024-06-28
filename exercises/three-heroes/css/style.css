@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url(../images/catwoman.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#hero-1 h2 {
+    font-size: 8vw;
+    color: white;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+}
+
+#hero-1 h4 {
+    font-size: 4vw;
+    color: whitesmoke;
+    margin: 0px 5vw 0px 0px;
+}
+
+#hero-1 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: rgb(16, 57, 29);
+    border: 3px solid rgba(255, 255, 255, 0.609);
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#hero-1 a:hover {
+    background-color: rgb(241, 85, 111);
+    color: white;
+}
+
+/* CSS FOR WONDER WOMAN */
+
+#hero-2 {
+    background-image: url(../images/wonderw.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#hero-2 h2 {
+    font-size: 8vw;
+    color: white;
+    background-color: rgba(40, 31, 11, 0.64);
+    border-radius: 5px;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+    padding: 10px;
+}
+
+#hero-2 h4 {
+    font-size: 3vw;
+    background-color: whitesmoke;
+    color: rgba(40, 31, 11, 0.64);
+    border-radius: 5px;
+    margin: 0px 5vw 0px 0px;
+    padding: 10px;
+}
+
+#hero-2 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: rgb(40, 31, 11);
+    border: 3px solid rgba(255, 255, 255, 0.609);
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#hero-2 a:hover {
+    background-color: rgba(238, 219, 46, 0.55);
+    color: rgb(40, 31, 11);
+}
+
+/* CSS TO BLACK CANARY */
+
+#hero-3 {
+    background-image: url(../images/blackcanary.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#hero-3 h2 {
+    font-size: 8vw;
+    color: rgb(255, 255, 255);
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+}
+
+#hero-3 h4 {
+    font-size: 3vw;
+    background-color: rgb(0, 0, 0);
+    color: rgb(228, 228, 228);
+    border-radius: 5px;
+    margin: 0px 5vw 0px 0px;
+    padding: 10px;
+}
+
+#hero-3 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    border: 3px solid rgba(255, 255, 255, 0.609);
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#hero-3 a:hover {
+    background-color: rgba(46, 238, 209, 0.55);
+    color: rgb(0, 0, 0);
+}
