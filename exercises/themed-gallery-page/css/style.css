@@ -26,23 +26,13 @@ body {
 #hero h1 {
     font-size: 8vw;
     color: whitesmoke;
-    margin-bottom: 5vh;
-    margin-right: 5vw;
+    margin-bottom: 50px;
+    margin-right: 38px;
 }
 
 #hero h2 {
-    font-size: 3vw;
+    font-size: 35px;
     color: whitesmoke;
-    margin: 0px 5vw 0px 0px;
-}
-
-.hero-content a {
-    border: 3px solid whitesmoke;
-    background-color: whitesmoke;
-    color: rgb(3, 126, 126);
-    border-radius: 5px;
-    padding: 15px;
-    text-decoration: none;
 }
 
 .island-grid {
@@ -59,6 +49,7 @@ body {
 }
 
 h3 {
+    font-size: 25px;
     color: whitesmoke;
     text-align: center;
 }
