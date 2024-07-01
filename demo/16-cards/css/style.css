@@ -65,7 +65,11 @@ body {
     text-align: center;
     font-size: 20px;
     font-weight: bold;
+    transition:
+        background-color .5s,
+        color .5s;
 }
+
 
 .card a:hover {
     background-color: transparent;
