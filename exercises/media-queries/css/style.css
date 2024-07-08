@@ -215,19 +215,22 @@ a {
 @media screen and (max-width:768px) {
     #nav {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 
     #hero h1 {
-        font-size: 50px;
+        font-size: 60px;
     }
 
     #hero h3 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
-    .three-cards {
+    .three-cards,
+    .two-cards {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 }
