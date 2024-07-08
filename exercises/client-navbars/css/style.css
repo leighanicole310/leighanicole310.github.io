@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/* Client 1 */
+
+#client-1-navbar {
+    background: linear-gradient(to bottom, green, #3e6d3e);
+    display: flex;
+    align-items: center;
+}
+
+#client-1-navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#client-1-navbar #logo {
+    margin-right: auto;
+}
+
+#client-1-navbar #logo img {
+    width: 150px;
+}
+
+/* Client 2 */
+
+#client-2-navbar {
+    background: linear-gradient(to bottom, green, #3e6d3e);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#client-2-navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#client-2-navbar #logo img {
+    width: 150px;
+}
+
+#client-2-navbar .cta-buttom {
+    background-color: white;
+    color: green;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+/* Client 3 */
+
+.content-column {
+    width: 800px;
+    margin: 0px auto;
+}
+
+#client-3-navbar-banner {
+    
+}
+
+#client-3-navbar-top {
+    background: linear-gradient(to bottom, green, #3e6d3e);
+}
+
+#client-3-navbar-top .content-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+
+#client-3-navbar-top a {
+    text-decoration: none;
+    color: white;
+    padding: 24px 0px;
+}
+
+#client-3-navbar-top .content-column div a {
+    padding: 24px;
+}
+
+#client-3-navbar-top #logo img {
+    width: 150px;
+}
+
+#client-3-navbar-top .cta-buttom {
+    background-color: white;
+    color: green;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+}
+
+#client-3-navbar-bottom {
+    background: linear-gradient(to bottom, yellowgreen, olive);
+}
+
+#client-3-navbar-bottom .content-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+#client-3-navbar-bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 0px;
+}
