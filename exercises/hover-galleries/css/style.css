@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background: linear-gradient(
+        #282828,
+        #000000,
+        #282828
+    );
+}
+
+h1 {
+    font-family: "Quicksand", sans-serif;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+h3 {
+    text-align: center;
+}
+/* Gallery 1 */
+
+.gallery-1-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.g1-card-content {
+    border: 3px solid rgba(252, 156, 196, 0.825);
+    background-color: whitesmoke;
+    height: 180px;
+    margin: 10px;
+    padding: 24px;
+    border-radius: 12px;
+}
+
+.g1-card-content img {
+    max-width: 200%;
+    padding: 20px;
+    object-fit: cover;
+}
+
+#g1-card1:hover {
+    background-color: rgba(252, 156, 196, 0.825);
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px #ffffff;
+    transform: translateY(-4px);
+}
+
+#g1-card2:hover {
+    background-color: rgba(252, 156, 196, 0.825);
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px #ffffff;
+    transform: translateY(-4px);
+}
+
+#g1-card3:hover {
+    background-color: rgba(252, 156, 196, 0.825);
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px #ffffff;
+    transform: translateY(-4px);
+}
+
+#g1-card4:hover {
+    background-color: rgba(252, 156, 196, 0.825);
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px #ffffff;
+    transform: translateY(-4px);
+}
+.gallery-1-container .g1-card-content {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+/* Gallery 2 */
+
+.gallery-2-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.g2-card-content {
+    border: 3px solid rgba(141, 192, 246, 0.886);
+    background-color: whitesmoke;
+    height: 180px;
+    margin: 10px;
+    padding: 24px;
+    border-radius: 12px;
+}
+
+.g2-card-content img {
+    max-width: 200%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#g2-card1 .g2-card-content {
+    transition:
+        opacity 0.5s,
+        visibility 0.5s; /* new */
+}
+
+#g2-card1:hover .g2-card-content {
+    opacity: 0;
+    visibility: hidden; /* new */
+}
+
+#g2-card2 .g2-card-content {
+    transition:
+        opacity 0.5s,
+        visibility 0.5s; /* new */
+}
+
+#g2-card2:hover .g2-card-content {
+    opacity: 0;
+    visibility: hidden; /* new */
+}
+
+#g2-card3 .g2-card-content {
+    transition:
+        opacity 0.5s,
+        visibility 0.5s; /* new */
+}
+
+#g2-card3:hover .g2-card-content {
+    opacity: 0;
+    visibility: hidden; /* new */
+}
+
+#g2-card4 .g2-card-content {
+    transition:
+        opacity 0.5s,
+        visibility 0.5s; /* new */
+}
+
+#g2-card4:hover .g2-card-content {
+    opacity: 0;
+    visibility: hidden; /* new */
+}
+
+/* Gallery 3 */
+
+.gallery-3-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.g3-card-content {
+    border: 3px solid rgba(211, 254, 150, 0.784);
+    background-color: whitesmoke;
+    height: 180px;
+    margin: 10px;
+    padding: 24px;
+    border-radius: 12px;
+}
+
+.g3-card-content img {
+    max-width: 200%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#g3-card1 .g3-card-content {
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        opacity 0.5s,
+        visibility 0.5s;
+}
+
+#g3-card1:hover .g3-card-content {
+    opacity: 1;
+    visibility: visible;
+}
+
+#g3-card2 .g3-card-content {
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        opacity 0.5s,
+        visibility 0.5s;
+}
+
+#g3-card2:hover .g3-card-content {
+    opacity: 1;
+    visibility: visible;
+}
+
+#g3-card3 .g3-card-content {
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        opacity 0.5s,
+        visibility 0.5s;
+}
+
+#g3-card3:hover .g3-card-content {
+    opacity: 1;
+    visibility: visible;
+}
+
+#g3-card4 .g3-card-content {
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        opacity 0.5s,
+        visibility 0.5s;
+}
+
+#g3-card4:hover .g3-card-content {
+    opacity: 1;
+    visibility: visible;
+}

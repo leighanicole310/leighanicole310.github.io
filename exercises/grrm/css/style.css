@@ -441,7 +441,7 @@ body {
 /* TODO: Write your media queries here */
 
 /* Tablet Breaking Point */
-@media screen (max-width: 1000px) and (min-width: 801px) {
+@media screen and (max-width: 1000px) and (min-width: 801px) {
     #grid-layout {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas:
@@ -455,7 +455,7 @@ body {
     }
 
     #header h1 {
-        font-size: 40px;
+        font-size: 50px;
     }
 
     #nav {
@@ -468,7 +468,7 @@ body {
 }
 
 /* Mobile Breaking Point */
-@media screen (max-width: 800px) {
+@media screen and (max-width: 800px) {
     #grid-layout {
         grid-template-columns: 1fr;
         grid-template-areas:
@@ -483,7 +483,6 @@ body {
             "bottom";
     }
 
-    #search-bar,
     #search-button,
     #shield-image {
         display: none;
@@ -495,7 +494,7 @@ body {
     }
 
     #header h1 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     #nav {
@@ -503,7 +502,7 @@ body {
     }
 
     #nav a {
-        flex: 60px;
+        flex: 45px;
     }
 
     #banner-container,
@@ -516,4 +515,10 @@ body {
         margin: 0px;
         background-color: transparent;
     }
+
+    #aside {
+        display: none;
+    }
+
+    
 }
