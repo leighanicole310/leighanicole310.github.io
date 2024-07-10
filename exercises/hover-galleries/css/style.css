@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 * {
     box-sizing: border-box;
@@ -8,17 +8,17 @@ body {
     margin: 0px;
     font-family: sans-serif;
     background: linear-gradient(
-        #282828,
-        #000000,
-        #282828
+        #9ce9fcd2,
+        #fc9cc4d2,
+        #bf5ffbd2
     );
 }
 
 h1 {
-    font-family: "Quicksand", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
     display: flex;
     justify-content: center;
-    color: whitesmoke;
+    color: #000000;
 }
 
 h3 {
@@ -33,43 +33,42 @@ h3 {
 }
 
 .g1-card-content {
-    border: 3px solid rgba(252, 156, 196, 0.825);
+    border: 3px solid #fc9cc4d2;
     background-color: whitesmoke;
-    height: 180px;
-    margin: 10px;
-    padding: 24px;
+    width: 230px;
+    margin: 15px;
+    padding: 10px;
     border-radius: 12px;
 }
 
 .g1-card-content img {
-    max-width: 200%;
-    padding: 20px;
-    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 #g1-card1:hover {
-    background-color: rgba(252, 156, 196, 0.825);
+    background-color: #fc9cc4d2;
     border-radius: 12px;
     box-shadow: 4px 4px 4px #ffffff;
     transform: translateY(-4px);
 }
 
 #g1-card2:hover {
-    background-color: rgba(252, 156, 196, 0.825);
+    background-color: #fc9cc4d2;
     border-radius: 12px;
     box-shadow: 4px 4px 4px #ffffff;
     transform: translateY(-4px);
 }
 
 #g1-card3:hover {
-    background-color: rgba(252, 156, 196, 0.825);
+    background-color: #fc9cc4d2;
     border-radius: 12px;
     box-shadow: 4px 4px 4px #ffffff;
     transform: translateY(-4px);
 }
 
 #g1-card4:hover {
-    background-color: rgba(252, 156, 196, 0.825);
+    background-color: #fc9cc4d2;
     border-radius: 12px;
     box-shadow: 4px 4px 4px #ffffff;
     transform: translateY(-4px);
@@ -90,19 +89,17 @@ h3 {
 }
 
 .g2-card-content {
-    border: 3px solid rgba(141, 192, 246, 0.886);
+    border: 3px solid #bf5ffbd2;
     background-color: whitesmoke;
-    height: 180px;
-    margin: 10px;
-    padding: 24px;
+    width: 230px;
+    margin: 15px;
+    padding: 10px;
     border-radius: 12px;
 }
 
 .g2-card-content img {
-    max-width: 200%;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 #g2-card1 .g2-card-content {
@@ -158,19 +155,17 @@ h3 {
 }
 
 .g3-card-content {
-    border: 3px solid rgba(211, 254, 150, 0.784);
+    border: 3px solid #9ce9fcd2;
     background-color: whitesmoke;
-    height: 180px;
-    margin: 10px;
-    padding: 24px;
+    width: 230px;
+    margin: 15px;
+    padding: 10px;
     border-radius: 12px;
 }
 
 .g3-card-content img {
-    max-width: 200%;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 #g3-card1 .g3-card-content {
