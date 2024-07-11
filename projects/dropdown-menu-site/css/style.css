@@ -8,7 +8,7 @@ body {
 }
 
 #navbar {
-    background: linear-gradient(to bottom, #109cb8, #0e5b96);
+    background: linear-gradient(to bottom, #ee638c, #d5406b);
     display: flex;
     align-items: center;
 }
@@ -21,7 +21,7 @@ body {
 }
 
 #navbar a:hover {
-    background: linear-gradient(to top, #109cb8, #0e5b96);
+    background: linear-gradient(to top, #ee638c, #d5406b);
 }
 
 #navbar #logo {
@@ -55,13 +55,14 @@ body {
 }
 
 .dropdown-menu a {
-    background-color: darkslateblue;
+    background-color: #ee638c;
     width: 100%;
     min-width: 200px;
 }
 
 #navbar .dropdown-menu a:hover {
-    background: slateblue;
+    color: #d5406b;
+    background: #f8f8f899;
 }
 
 #hero {
@@ -74,20 +75,45 @@ body {
     align-items: center;
 }
 
+/* Card Style */
+
 .card-container {
     border: 3px solid whitesmoke;
     border-radius: 10px;
-    background-color: #340c1b8a;
-    padding: 25px;
+    background-color: #340c1bc8;
+    max-width: 650px;
+    max-height: 350px;
     margin: 50px;
-    display: block;
-    justify-content: center;
+    padding: 15px;
+}
+
+div#card p {
+    font-size: 20px;
+}
+
+/* Buttons Hover Style */
+
+div#card a {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    padding: 15px;
+    margin: 10px;
+}
+
+#button-1 a:hover {
+    color: #ffffff;
+    background: #ee638c;
+}
+
+#button-2 a:hover {
+    color: #ffffff;
+    background: #ee638c;
 }
 
 #hero .hero-content {
     text-align: center;
     color: white;
-    padding-top: 20vh;
 }
 
 #hero a {
@@ -98,7 +124,7 @@ body {
     color: #333333;
     text-decoration: none;
     padding: 24px;
-    margin: 5vh 5vw 10vh 0px;
+    margin: 1px 1px 1px 1px;
 }
 
 
