@@ -104,11 +104,17 @@ div#card a {
 #button-1 a:hover {
     color: #ffffff;
     background: #ee638c;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
 }
 
 #button-2 a:hover {
     color: #ffffff;
     background: #ee638c;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
 }
 
 #hero .hero-content {
@@ -127,7 +133,29 @@ div#card a {
     margin: 1px 1px 1px 1px;
 }
 
+/* Alphonzo */
 
+.card-1-container {
+    border: 3px solid #ee638c;
+    border-radius: 10px;
+    margin: 100px;
+    padding: 50px;
+    max-height: 748px;
+}
+
+#alphonzo-card img {
+    max-width: 100%;
+    max-height: 350px;
+}
+
+.card-1-container img {
+    display: block;
+    margin: auto;
+}
+
+#alphonzo-card p {
+    text-align: center;
+}
 
 /* Tablet Breaking Point */
 
