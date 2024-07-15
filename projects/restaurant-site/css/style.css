@@ -11,6 +11,7 @@ body {
 
 
 /* NavBar */
+
 .content-column {
     width: 800px;
     margin: 0px auto;
@@ -33,14 +34,14 @@ body {
 }
 
 #navbar-top .content-column div a {
-    padding: 24px;
+    padding: 10px;
 }
 
-#navbar-top .cta-buttom {
-    background-color: white;
-    color: green;
-    border-radius: 36px;
-    padding: 16px 24px;
+#navbar-top .cta-button {
+    background: linear-gradient(to bottom, #5b5b5b, #bcbcbc);
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 10px 10PX;
     font-size: 20px;
     font-weight: bold;
     min-width: 150px;
@@ -53,7 +54,8 @@ body {
 
 #navbar-bottom .content-column {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    
 }
 
 #navbar-bottom a {
