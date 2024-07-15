@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Playwrite+NZ:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Shadows+Into+Light&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -10,7 +16,7 @@ body {
 /* Client 1 */
 
 #client-1-navbar {
-    background: linear-gradient(to bottom, green, #3e6d3e);
+    background: linear-gradient(to bottom, #b88912, #442c04);
     display: flex;
     align-items: center;
 }
@@ -22,6 +28,7 @@ body {
 }
 
 #client-1-navbar #logo {
+    font-family: "Baskervville SC", serif;
     margin-right: auto;
 }
 
@@ -32,7 +39,12 @@ body {
 /* Client 2 */
 
 #client-2-navbar {
-    background: linear-gradient(to bottom, green, #3e6d3e);
+    background: linear-gradient(
+        to bottom right, 
+        #ff4000, 
+        #ffbc40, 
+        #ff4000
+    );
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,13 +56,14 @@ body {
     padding: 24px;
 }
 
-#client-2-navbar #logo img {
+#client-2-navbar #logo-2 {
+    font-family: "Baskervville SC", serif;
     width: 150px;
 }
 
 #client-2-navbar .cta-buttom {
     background-color: white;
-    color: green;
+    color: #ff9d00;
     border-radius: 36px;
     padding: 16px 24px;
     font-size: 20px;
@@ -62,33 +75,49 @@ body {
 
 /* Client 3 */
 
-.content-column {
-    width: 800px;
-    margin: 0px auto;
+#client-3-navbar-banner .bogo-content {
+    display: block;
+    text-align: center;
+    background-color: #f7c10e;
+    padding: 10px;
 }
 
-#client-3-navbar-banner {
-    
+.bogo-content a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 #client-3-navbar-top {
-    background: linear-gradient(to bottom, green, #3e6d3e);
+    background: linear-gradient(to bottom, #f7c10e, #ff9d00);
 }
 
 #client-3-navbar-top .content-column {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}  
+}
+
+.content-column {
+    width: 800px;
+    margin: 0px auto;
+}
 
 #client-3-navbar-top a {
     text-decoration: none;
-    color: white;
+    font-family: "Shadows Into Light", cursive;
+    text-shadow: #ba67c3 5px 5px 5px;
+    color: #ffffff;
     padding: 24px 0px;
+
 }
 
 #client-3-navbar-top .content-column div a {
     padding: 24px;
+}
+
+#client-3-navbar-top h1 {
+    font-family: "Shadows Into Light", cursive;
 }
 
 #client-3-navbar-top #logo img {
@@ -96,8 +125,9 @@ body {
 }
 
 #client-3-navbar-top .cta-buttom {
-    background-color: white;
-    color: green;
+    font-family: "Shadows Into Light", cursive;
+    background-color: #ffffff;
+    color: #8a0ef7;
     border-radius: 36px;
     padding: 16px 24px;
     font-size: 20px;
@@ -107,7 +137,7 @@ body {
 }
 
 #client-3-navbar-bottom {
-    background: linear-gradient(to bottom, yellowgreen, olive);
+    background-color: #8a0ef7;
 }
 
 #client-3-navbar-bottom .content-column {
