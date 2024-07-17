@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(
+        to bottom, 
+        #231f20, 
+        #fa400c, 
+        #0d4135)
+    ;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#layout {
+    width: 100%;
+    margin: auto;
+}
+
+h1 {
+    font-family: "Anton SC", sans-serif;
+    color: #fa400c;
+    font-size:30px;
+}
+
+#top h3 {
+    font-family: "Anton SC", sans-serif;
+    color: #ffffff;
+    margin: 0px;
+    font-size: 125px;
+}
+
+#top h4 {
+    color: #ffffff;
+    font-family: "Anton SC", sans-serif;
+    font-size: 50px;
+    margin: 0px;
+}
+
+#top p {
+    color: #fa400c;
+    font-size: 45px;
+}
+
+.top-container {
+    text-align: center;
+}
+
+.image-container {
+    border: 3px solid #ffffff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#image-1 img {
+    width: 350px;
+    max-height: ;
+}
+
+#image-1 h3 {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+#image-2 h3 {
+    color: #ffffff;
+    margin-top: 0px;
+    font-size: 30px;
+}
+
+#image-2 img {
+    width: 300px;
+    vertical-align: center;
+}
+
+.cta-button {
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid #ffffff;
+}
+
+#button-1 {
+    background-color: #ffffff;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    
+    
+}
+
+#button-2 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 3px solid #ffffff
+}
+
+p {
+    text-align: center;
+}
+@media screen and (min-width: 480px) {
+
+}

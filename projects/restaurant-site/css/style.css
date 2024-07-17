@@ -165,10 +165,15 @@ img {
     padding: 24px;
 }
 
-.item-container {
+.row-1-container {
     display: grid;
     justify-content: center;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    grid-template-areas: 
+        "item-1 item-2 item-3"
+        "item-4 item-5 item-6"
+        "item-7 item-8 item-9";
     background: linear-gradient(
         #231f20,
         #c9c9c9)
@@ -177,8 +182,80 @@ img {
     padding: 24px;
 }
 
+.row-2-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    grid-template-areas: 
+        "item-1 item-2 item-3"
+        "item-4 item-5 item-6"
+        "item-7 item-8 item-9";
+    background: linear-gradient(
+        #231f20,
+        #c9c9c9)
+    ;
+    border-radius: 5px;
+    padding: 24px;
+}
 
+.row-3-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    grid-template-areas: 
+        "item-1 item-2 item-3"
+        "item-4 item-5 item-6"
+        "item-7 item-8 item-9";
+    background: linear-gradient(
+        #231f20,
+        #c9c9c9)
+    ;
+    border-radius: 5px;
+    padding: 24px;
+}
 
+.item-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#item-1 {
+    grid-area: item-1;
+}
+
+#item-2 {
+    grid-area: item-2;
+}
+
+#item-3 {
+    grid-area: item-3;
+}
+
+#item-4 {
+    grid-area: item-4;
+}
+
+#item-5 {
+    grid-area: item-5;
+}
+
+#item-6 {
+    grid-area: item-6;
+}
+
+#item-7 {
+    grid-area: item-7;
+}
+
+#item-8 {
+    grid-area: item-8;
+}
+
+#item-9 {
+    grid-area: item-9;
+}
 /* Footer */
 
 #footer {
