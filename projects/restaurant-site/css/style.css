@@ -154,6 +154,7 @@ img {
 /* menu */
 
 .menu-container {
+    display: flex;
     background: linear-gradient(
         to top left, 
         #ffffff, 
@@ -189,41 +190,7 @@ img {
     text-align: center;
 }
 
-#card {
-    display: flexbox;
-    flex-direction: column;
-}
-
-.row-1-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background: linear-gradient(
-        #231f20,
-        #c9c9c9)
-    ;
-    border-radius: 5px;
-    padding: 24px;
-    width: 350px;
-}
-
-.row-2-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background: linear-gradient(
-        #231f20,
-        #c9c9c9)
-    ;
-    border-radius: 5px;
-    padding: 24px;
-    width: 350px;
-}
-
-.row-3-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.row-item-container {
     background: linear-gradient(
         #231f20,
         #c9c9c9)
