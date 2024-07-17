@@ -161,101 +161,81 @@ img {
         #ffffff)
     ;
     border-radius: 10px;
-    margin: 50px 80px;
+    margin: 50px;
     padding: 24px;
+}
+
+#item-1,
+#item-2,
+#item-3,
+#item-4,
+#item-5,
+#item-6,
+#item-7,
+#item-8,
+#item-9 h3 {
+    text-align: center;
+}
+
+#item-1
+#item-2,
+#item-3,
+#item-4,
+#item-5,
+#item-6,
+#item-7,
+#item-8,
+#item-9 p {
+    text-align: center;
+}
+
+#card {
+    display: flexbox;
+    flex-direction: column;
 }
 
 .row-1-container {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 15px;
-    grid-template-areas: 
-        "item-1 item-2 item-3"
-        "item-4 item-5 item-6"
-        "item-7 item-8 item-9";
     background: linear-gradient(
         #231f20,
         #c9c9c9)
     ;
     border-radius: 5px;
     padding: 24px;
+    width: 350px;
 }
 
 .row-2-container {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 15px;
-    grid-template-areas: 
-        "item-1 item-2 item-3"
-        "item-4 item-5 item-6"
-        "item-7 item-8 item-9";
     background: linear-gradient(
         #231f20,
         #c9c9c9)
     ;
     border-radius: 5px;
     padding: 24px;
+    width: 350px;
 }
 
 .row-3-container {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 15px;
-    grid-template-areas: 
-        "item-1 item-2 item-3"
-        "item-4 item-5 item-6"
-        "item-7 item-8 item-9";
     background: linear-gradient(
         #231f20,
         #c9c9c9)
     ;
     border-radius: 5px;
     padding: 24px;
+    width: 350px;
 }
 
-.item-container img {
-    max-width: 100%;
-    max-height: 100%;
-}
 
-#item-1 {
-    grid-area: item-1;
-}
 
-#item-2 {
-    grid-area: item-2;
-}
 
-#item-3 {
-    grid-area: item-3;
-}
-
-#item-4 {
-    grid-area: item-4;
-}
-
-#item-5 {
-    grid-area: item-5;
-}
-
-#item-6 {
-    grid-area: item-6;
-}
-
-#item-7 {
-    grid-area: item-7;
-}
-
-#item-8 {
-    grid-area: item-8;
-}
-
-#item-9 {
-    grid-area: item-9;
-}
 /* Footer */
 
 #footer {
@@ -274,4 +254,8 @@ img {
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
+}
+
+@media screen and (min-width: 480px) {
+    
 }
