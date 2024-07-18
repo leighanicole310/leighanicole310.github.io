@@ -358,7 +358,7 @@ img {
 
 /* Media Queries */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 481px) {
     .content-column {
         display: flex;
         flex-direction: column;
