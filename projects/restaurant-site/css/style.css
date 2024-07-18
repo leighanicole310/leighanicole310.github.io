@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap');
+
+
 * {
     box-sizing: border-box;
 }
@@ -15,6 +22,12 @@ body {
     margin: 0px auto;
 }
 
+#logo {
+    font-family: "Alex Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
 #navbar-top {
     background-color: #231f20;
 }
@@ -29,6 +42,10 @@ body {
     text-decoration: none;
     color: #ffffff;
     padding: 24px 0px;
+    font-family: "Yrsa", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #navbar-top .content-column div a {
@@ -44,6 +61,10 @@ body {
     font-weight: bold;
     min-width: 150px;
     text-align: center;
+    font-family: "Yrsa", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #navbar-top .cta-button:hover {
@@ -72,6 +93,10 @@ body {
     font-weight: bold;
     color: #ffffff;
     padding: 12px 0px;
+    justify-content: center;
+    font-family: "Taviraj", serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 /* Main Content */
@@ -90,13 +115,16 @@ body {
 
 .cta-content-container {
     display: flex;
-    justify-content: center;
 }
 
 #main h3 {
     font-size: 24px;
     text-align: center;
     color: #231f20;
+    justify-content: center;
+    font-family: "Taviraj", serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 #cta-content p {
@@ -107,6 +135,10 @@ body {
     color: #231f20;
     display: flex;
     align-items: center;
+    font-family: "Yrsa", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .image-container {
@@ -135,6 +167,10 @@ img {
 #button a {
     text-decoration: none;
     color: #ffffff;
+    font-family: "Yrsa", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .button-container:hover {
@@ -208,6 +244,11 @@ img {
 #card-8,
 #card-9 p {
     text-align: center;
+    font-family: "Yrsa", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
 }
 
 #card-1
@@ -269,6 +310,10 @@ img {
 }
 
 .card h3 {
+    justify-content: center;
+    font-family: "Taviraj", serif;
+    font-weight: 700;
+    font-style: normal;
     color: #ffffff;
 }
 
@@ -289,11 +334,19 @@ img {
     background-color: #c9c9c9;
     color: #231f20;
     padding: 12px;
+    font-family: "Yrsa", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #footer a {
     text-decoration: none;
     color: #231f20;
+    font-family: "Yrsa", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #footer-navbar {
@@ -305,18 +358,19 @@ img {
 
 /* Media Queries */
 
-@media screen and (max-width: 605px) {
+@media screen and (max-width: 1219px) {
     .content-column {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 480px;
     }
 
     .content-column a {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 10px;
+        margin-top: 5px;
     }
 
     .cta-button {
@@ -324,11 +378,26 @@ img {
     }
 
     #navbar-bottom a {
-        border: 5px solid;
         font-size: 16px;
     }
 
     .cta-content-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #footer-navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 480px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    #footer-navbar {
         display: flex;
         flex-direction: column;
         align-items: center;
