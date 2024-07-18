@@ -135,15 +135,25 @@ div#card a {
 
 /* Alphonzo */
 
+#background-a {
+    background: linear-gradient(to bottom, #ee638c, #d5406b);
+}
+
 .card-1-container {
-    border: 3px solid #ee638c;
+    background-color: #ffffff3c;
+    border: 3px solid #ffffff;
     border-radius: 10px;
     margin: 100px;
     padding: 50px;
-    max-height: 748px;
+}
+
+#alphonzo-card h1 {
+    color: #ffffff;
+    text-align: center;
 }
 
 #alphonzo-card img {
+    border: 3px solid #ffffff;
     max-width: 100%;
     max-height: 350px;
 }
@@ -154,17 +164,110 @@ div#card a {
 }
 
 #alphonzo-card p {
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Macie */
+
+#background-m {
+    background: linear-gradient(to bottom, #ee638c, #d5406b);
+}
+
+.card-1-container {
+    background-color: #ffffff3c;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    margin: 100px;
+    padding: 50px;
+}
+
+#macie-card h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+#macie-card img {
+    border: 3px solid #ffffff;
+    max-width: 100%;
+    max-height: 350px;
+}
+
+.card-1-container img {
+    display: block;
+    margin: auto;
+}
+
+#macie-card p {
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Clenton */
+
+#background-c {
+    background: linear-gradient(to bottom, #ee638c, #d5406b);
+}
+
+.card-1-container {
+    background-color: #ffffff3c;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    margin: 100px;
+    padding: 50px;
+}
+
+#clenton-card h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+#clenton-card img {
+    border: 3px solid #ffffff;
+    max-width: 100%;
+    max-height: 350px;
+}
+
+.card-1-container img {
+    display: block;
+    margin: auto;
+}
+
+#clenton-card p {
+    color: #ffffff;
     text-align: center;
 }
 
 /* Tablet Breaking Point */
 
 @media screen and (max-width: 800px) and (min-width: 480px) {
-    
+    #navbar a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        padding: 24px;
+    }
+
+    #navbar #logo {
+        text-align: center;
+     }
 }
 
 /* Phone Breaking Point  */
 
 @media screen and (max-width: 480px) {
-    
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        padding: 24px;
+    }
+
+    #navbar #logo {
+       text-align: center;
+    }
 }
