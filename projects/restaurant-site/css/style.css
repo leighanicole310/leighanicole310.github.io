@@ -2,8 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -26,6 +25,7 @@ body {
     font-family: "Alex Brush", cursive;
     font-weight: 400;
     font-style: normal;
+    margin-bottom: 0px;
 }
 
 #navbar-top {
@@ -43,9 +43,7 @@ body {
     color: #ffffff;
     padding: 24px 0px;
     font-family: "Yrsa", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+    margin-top: 0px;
 }
 
 #navbar-top .content-column div a {
@@ -62,9 +60,6 @@ body {
     min-width: 150px;
     text-align: center;
     font-family: "Yrsa", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
 }
 
 #navbar-top .cta-button:hover {
@@ -85,6 +80,7 @@ body {
 #navbar-bottom .content-column {
     display: flex;
     justify-content: center;
+    font-family: "Yrsa", serif;
     
 }
 
@@ -102,7 +98,7 @@ body {
 /* Main Content */
 
 #main {
-    border: 10px dotted #c9c9c9;
+    border: 10px solid #c9c9c9;
     background: linear-gradient(
         to top left, 
         #ffffff, 
@@ -113,15 +109,20 @@ body {
     margin: 50px 100px;
 }
 
+.main-content-container h3 {
+    text-align: center;
+}
+
 .cta-content-container {
     display: flex;
 }
 
-#main h3 {
+#cta-content h3 {
+    display: inline-block;
+    flex-direction: row;
     font-size: 24px;
     text-align: center;
     color: #231f20;
-    justify-content: center;
     font-family: "Taviraj", serif;
     font-weight: 700;
     font-style: normal;
@@ -142,7 +143,7 @@ body {
 }
 
 .image-container {
-    border: 3px dotted #231f20;
+    border: 3px solid #231f20;
     max-width: 100%;
     max-height: 100%;
     margin: 24px;
@@ -152,7 +153,7 @@ body {
 img {
     border: 3px solid #231f20;
     padding: 10px;
-    width: 250px;
+    width: 450px;
 }
 
 #button {
@@ -168,15 +169,12 @@ img {
     text-decoration: none;
     color: #ffffff;
     font-family: "Yrsa", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
 }
 
 .button-container:hover {
     background-color: transparent;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px #c9c9c9;
+    box-shadow: 5px 5px 10px #231f20;
     transform: translateY(-4px);
 }
 
@@ -244,11 +242,6 @@ img {
 #card-8,
 #card-9 p {
     text-align: center;
-    font-family: "Yrsa", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    
 }
 
 #card-1
@@ -268,6 +261,12 @@ img {
     margin: auto;
 }
 
+
+.card {
+    max-width: 325px;
+    max-height: 450px;
+}
+
 .row-item-container {
     display: flex;
     flex-direction: row;
@@ -277,36 +276,7 @@ img {
         #c9c9c9)
     ;
     border-radius: 15px;
-    padding: 24px;
-}
-
-#card-5 p {
-    margin: 20px;
-}
-
-#card-5 h4 {
-    margin-top: 35px;
-}
-
-#card-6 p {
-    margin: 20px;
-}
-
-#card-6 h4 {
-    margin-top: 35px;
-}
-
-#card-7 p {
-    margin: 20px;
-}
-
-#card-7 h4 {
-    margin-top: 35px;
-}
-
-.card {
-    max-width: 250px;
-    max-height: 550px;
+    margin-bottom: 35px;
 }
 
 .card h3 {
@@ -321,32 +291,26 @@ img {
     color: #ffffff;
 }
 
-.card h4 {
-    font-size: 23px;
-}
 
 .card img {
     border: 3px solid #ffffff;
 }
+
+.card h4 {
+    
+}
+
 /* Footer */
 
 #footer {
     background-color: #c9c9c9;
     color: #231f20;
     padding: 12px;
-    font-family: "Yrsa", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
 }
 
 #footer a {
     text-decoration: none;
     color: #231f20;
-    font-family: "Yrsa", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
 }
 
 #footer-navbar {
@@ -388,18 +352,25 @@ img {
         text-align: center;
     }
 
-    #footer-navbar {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 480px;
+    .image-container {
+        border: 3px solid #231f20;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 24px;
+        padding: 10px;
     }
-}
+    
+    img {
+        border: 3px solid #231f20;
+        padding: 10px;
+        max-width: 225px;
+        
+    }
 
-@media screen and (min-width: 480px) {
     #footer-navbar {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 250px;
     }
 }
