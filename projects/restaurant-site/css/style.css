@@ -323,6 +323,8 @@ img {
     max-width: 325px;
     max-height: 550px;
     padding: 24px;
+    margin: 24px;
+    gap: 20px;
     font-family: "Yrsa", serif;
 }
 
@@ -352,10 +354,11 @@ img {
 
 
 .card img {
+    max-width: 250px;
     border: 3px solid #ffffff;
 }
 
-/* Footer */
+/* Footer */cs
 
 #footer {
     background-color: #c9c9c9;
@@ -418,8 +421,7 @@ img {
     .card img {
         border: 3px solid #231f20;
         padding: 10px;
-        max-width: 225px;
-        
+        max-width: 250px;
     }
 }
 
