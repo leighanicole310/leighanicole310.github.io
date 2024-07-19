@@ -42,15 +42,15 @@ function reactToMoveRightButton() {
     // push the MOVE RIGHT button, causing the character to move to the right
     // (assuming no boulder is in the way)
 
-    moveRight();
+    moveRight(1);
 }
 
 function reactToMoveLeftButton() {
-    moveLeft();
+    moveLeft(1);
 }
 
 function reactToMoveDownButton() {
-    moveDown();
+    moveDown(1);
 }
 
 function reactToMoveUpButton() {
@@ -62,21 +62,21 @@ function reactToAttackButton() {
 }
 
 function reactToJumpRightButton() {
-    jumpRight(2);
+    jumpRight(3);
 }
 
 function reactToJumpLeftButton() {
-    jumpLeft(2);
+    jumpLeft(3);
 }
 
 function reactToJumpDownButton() {
-    jumpDown();
+    jumpDown(4);
 }
 
 function reactToJumpUpButton() {
-    jumpUp();
+    jumpUp(3);
 }
 
 function reactToJumpButton() {
-    jump();
+    jump(3);
 }
