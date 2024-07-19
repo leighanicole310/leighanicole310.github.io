@@ -256,12 +256,6 @@ img {
     text-align: center;
 }
 
-#card-9 img {
-    display: block;
-    margin: auto;
-}
-
-
 .card {
     max-width: 325px;
     max-height: 450px;
